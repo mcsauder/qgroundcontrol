@@ -1221,16 +1221,16 @@ Set -1 to disable the check</short_desc>
       <long_desc>If the main switch channel is in this range the selected flight mode will be applied.</long_desc>
       <values>
         <value code="-1">Unassigned</value>
-        <value code="0">Manual</value>
-        <value code="1">Altitude</value>
+<!--        <value code="0">Manual</value>-->
+<!--        <value code="1">Altitude</value>-->
         <value code="2">Position</value>
         <value code="3">Mission</value>
         <value code="4">Hold</value>
         <value code="5">Return</value>
-        <value code="6">Acro</value>
+<!--        <value code="6">Acro</value>-->
         <value code="7">Offboard</value>
-        <value code="8">Stabilized</value>
-        <value code="9">Rattitude</value>
+<!--        <value code="8">Stabilized</value>-->
+<!--        <value code="9">Rattitude</value>-->
         <value code="10">Takeoff</value>
         <value code="11">Land</value>
         <value code="12">Follow Me</value>
@@ -1241,16 +1241,16 @@ Set -1 to disable the check</short_desc>
       <long_desc>If the main switch channel is in this range the selected flight mode will be applied.</long_desc>
       <values>
         <value code="-1">Unassigned</value>
-        <value code="0">Manual</value>
-        <value code="1">Altitude</value>
+<!--        <value code="0">Manual</value>-->
+<!--        <value code="1">Altitude</value>-->
         <value code="2">Position</value>
         <value code="3">Mission</value>
         <value code="4">Hold</value>
         <value code="5">Return</value>
-        <value code="6">Acro</value>
+<!--        <value code="6">Acro</value>-->
         <value code="7">Offboard</value>
-        <value code="8">Stabilized</value>
-        <value code="9">Rattitude</value>
+<!--        <value code="8">Stabilized</value>-->
+<!--        <value code="9">Rattitude</value>-->
         <value code="10">Takeoff</value>
         <value code="11">Land</value>
         <value code="12">Follow Me</value>
@@ -1261,16 +1261,16 @@ Set -1 to disable the check</short_desc>
       <long_desc>If the main switch channel is in this range the selected flight mode will be applied.</long_desc>
       <values>
         <value code="-1">Unassigned</value>
-        <value code="0">Manual</value>
-        <value code="1">Altitude</value>
+<!--        <value code="0">Manual</value>-->
+<!--        <value code="1">Altitude</value>-->
         <value code="2">Position</value>
         <value code="3">Mission</value>
         <value code="4">Hold</value>
         <value code="5">Return</value>
-        <value code="6">Acro</value>
+<!--        <value code="6">Acro</value>-->
         <value code="7">Offboard</value>
-        <value code="8">Stabilized</value>
-        <value code="9">Rattitude</value>
+<!--        <value code="8">Stabilized</value>-->
+<!--        <value code="9">Rattitude</value>-->
         <value code="10">Takeoff</value>
         <value code="11">Land</value>
         <value code="12">Follow Me</value>
@@ -1281,16 +1281,16 @@ Set -1 to disable the check</short_desc>
       <long_desc>If the main switch channel is in this range the selected flight mode will be applied.</long_desc>
       <values>
         <value code="-1">Unassigned</value>
-        <value code="0">Manual</value>
-        <value code="1">Altitude</value>
+<!--        <value code="0">Manual</value>-->
+<!--        <value code="1">Altitude</value>-->
         <value code="2">Position</value>
         <value code="3">Mission</value>
         <value code="4">Hold</value>
         <value code="5">Return</value>
-        <value code="6">Acro</value>
+<!--        <value code="6">Acro</value>-->
         <value code="7">Offboard</value>
-        <value code="8">Stabilized</value>
-        <value code="9">Rattitude</value>
+<!--        <value code="8">Stabilized</value>-->
+<!--        <value code="9">Rattitude</value>-->
         <value code="10">Takeoff</value>
         <value code="11">Land</value>
         <value code="12">Follow Me</value>
@@ -1301,16 +1301,16 @@ Set -1 to disable the check</short_desc>
       <long_desc>If the main switch channel is in this range the selected flight mode will be applied.</long_desc>
       <values>
         <value code="-1">Unassigned</value>
-        <value code="0">Manual</value>
-        <value code="1">Altitude</value>
+<!--        <value code="0">Manual</value>-->
+<!--        <value code="1">Altitude</value>-->
         <value code="2">Position</value>
         <value code="3">Mission</value>
         <value code="4">Hold</value>
         <value code="5">Return</value>
-        <value code="6">Acro</value>
+<!--        <value code="6">Acro</value>-->
         <value code="7">Offboard</value>
-        <value code="8">Stabilized</value>
-        <value code="9">Rattitude</value>
+<!--        <value code="8">Stabilized</value>-->
+<!--        <value code="9">Rattitude</value>-->
         <value code="10">Takeoff</value>
         <value code="11">Land</value>
         <value code="12">Follow Me</value>
@@ -1321,16 +1321,16 @@ Set -1 to disable the check</short_desc>
       <long_desc>If the main switch channel is in this range the selected flight mode will be applied.</long_desc>
       <values>
         <value code="-1">Unassigned</value>
-        <value code="0">Manual</value>
-        <value code="1">Altitude</value>
+<!--        <value code="0">Manual</value>-->
+<!--        <value code="1">Altitude</value>-->
         <value code="2">Position</value>
         <value code="3">Mission</value>
         <value code="4">Hold</value>
         <value code="5">Return</value>
-        <value code="6">Acro</value>
+<!--        <value code="6">Acro</value>-->
         <value code="7">Offboard</value>
-        <value code="8">Stabilized</value>
-        <value code="9">Rattitude</value>
+<!--        <value code="8">Stabilized</value>-->
+<!--        <value code="9">Rattitude</value>-->
         <value code="10">Takeoff</value>
         <value code="11">Land</value>
         <value code="12">Follow Me</value>

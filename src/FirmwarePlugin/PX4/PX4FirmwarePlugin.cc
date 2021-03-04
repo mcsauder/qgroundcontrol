@@ -34,12 +34,12 @@ PX4FirmwarePluginInstanceData::PX4FirmwarePluginInstanceData(QObject* parent)
 }
 
 PX4FirmwarePlugin::PX4FirmwarePlugin()
-    : _manualFlightMode     (tr("Manual"))
-    , _acroFlightMode       (tr("Acro"))
-    , _stabilizedFlightMode (tr("Stabilized"))
-    , _rattitudeFlightMode  (tr("Rattitude"))
-    , _altCtlFlightMode     (tr("Altitude"))
-    , _posCtlFlightMode     (tr("Position"))
+//    : _manualFlightMode     (tr("Manual"))
+//    , _acroFlightMode       (tr("Acro"))
+//    , _stabilizedFlightMode (tr("Stabilized"))
+//    , _rattitudeFlightMode  (tr("Rattitude"))
+//    , _altCtlFlightMode     (tr("Altitude"))
+    : _posCtlFlightMode     (tr("Position"))
     , _offboardFlightMode   (tr("Offboard"))
     , _readyFlightMode      (tr("Ready"))
     , _takeoffFlightMode    (tr("Takeoff"))
@@ -70,11 +70,11 @@ PX4FirmwarePlugin::PX4FirmwarePlugin()
 
     static const struct Modes2Name rgModes2Name[] = {
         //main_mode                         sub_mode                                canBeSet  FW      MC
-        { PX4_CUSTOM_MAIN_MODE_MANUAL,      0,                                      true,   true,   true },
-        { PX4_CUSTOM_MAIN_MODE_STABILIZED,  0,                                      true,   true,   true },
-        { PX4_CUSTOM_MAIN_MODE_ACRO,        0,                                      true,   true,   true },
-        { PX4_CUSTOM_MAIN_MODE_RATTITUDE,   0,                                      true,   true,   true },
-        { PX4_CUSTOM_MAIN_MODE_ALTCTL,      0,                                      true,   true,   true },
+//        { PX4_CUSTOM_MAIN_MODE_MANUAL,      0,                                      true,   true,   true },
+//        { PX4_CUSTOM_MAIN_MODE_STABILIZED,  0,                                      true,   true,   true },
+//        { PX4_CUSTOM_MAIN_MODE_ACRO,        0,                                      true,   true,   true },
+//        { PX4_CUSTOM_MAIN_MODE_RATTITUDE,   0,                                      true,   true,   true },
+//        { PX4_CUSTOM_MAIN_MODE_ALTCTL,      0,                                      true,   true,   true },
         { PX4_CUSTOM_MAIN_MODE_OFFBOARD,    0,                                      true,   false,  true },
         { PX4_CUSTOM_MAIN_MODE_SIMPLE,      0,                                      false,  false,  true },
         { PX4_CUSTOM_MAIN_MODE_POSCTL,      PX4_CUSTOM_SUB_MODE_POSCTL_POSCTL,      true,   true,   true },
@@ -92,11 +92,11 @@ PX4FirmwarePlugin::PX4FirmwarePlugin()
 
     // Must be in same order as above structure
     const QString* rgModeNames[] = {
-        &_manualFlightMode,
-        &_stabilizedFlightMode,
-        &_acroFlightMode,
-        &_rattitudeFlightMode,
-        &_altCtlFlightMode,
+//        &_manualFlightMode,
+//        &_stabilizedFlightMode,
+//        &_acroFlightMode,
+//        &_rattitudeFlightMode,
+//        &_altCtlFlightMode,
         &_offboardFlightMode,
         &_simpleFlightMode,
         &_posCtlFlightMode,
